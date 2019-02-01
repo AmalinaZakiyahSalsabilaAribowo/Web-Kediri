@@ -1,0 +1,463 @@
+* {
+  box-sizing: border-box;
+}
+[class*="col-"]{
+  padding: 15px; float: left; width: 100%;
+}
+.header{
+
+}
+
+@media only screen and (min-width: 600px) {
+  /* for tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+  @media only screen and (min-width: 600px) {
+    /* for desktop */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+.menu{
+  width: 100%;
+  background-color: #ffe680;
+  margin-top: 0px;
+}
+
+.menu ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.menu ul li{
+  float: left;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  padding: 2px 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.menu ul li a:hover{
+  border-top: 2px solid #fff;
+}
+
+.utama{
+  width: 100%;
+  height: 700px;
+  /* background: url("slg3.jpg") no-repeat center; */
+  float: center;
+  margin-right: 250px;
+  opacity: 0.9;
+  margin-bottom: 20%;
+}
+
+.utama .gambar img{
+  width: 100%;
+  height: auto;
+  float: center;
+}
+
+
+.tampilan .teks h1{
+font-size: 50px;
+padding-top: 700px;
+padding-left: 450px;
+font-family: cursive;
+/* position: fixed; */
+}
+
+.tampilan .teks p{
+  font-size: 35px;
+  padding-top: 10px;
+  padding-left: 440px;
+  font-family: cursive;
+}
+
+
+.kedua{
+  width: 100%;
+  margin-top: 15%;
+  padding-bottom: 50px;
+}
+
+.isi{
+  margin-left: 20px;
+  width: 30%;
+  float: left;
+  text-align: right;
+}
+
+.judulisi{
+  padding-right: 30px;
+  border-right: 5px solid #7a8ab8;
+}
+
+.judulisi h1{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+
+}
+
+.judulisi p{
+  color: #00334d
+  font-family: fantasy;
+}
+
+.isi2{
+  width: 60%;
+  float: right;
+  margin-right: auto;
+  margin-top: -40px;
+}
+
+.isi2 img{
+  width: 700px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-top: 0px;
+}
+
+.makanan h1{
+font-size: 50px;
+padding-top: 100px;
+padding-left: 500px;
+font-family: monospace;
+/* position: fixed; */
+}
+
+div.kuliner{
+
+}
+
+div.kuliner .sate img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.kuliner .sate{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.kuliner .tahu img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.kuliner .tahu{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.kuliner .stik img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.kuliner .stik{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.kuliner .getuk img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.kuliner .getuk{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+/* div.kuliner .tahu{
+  float: left;
+}
+
+div.kuliner img{
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+} */
+
+
+div.wisata h1{
+font-size: 50px;
+padding-top: 1000px;
+padding-left: 500px;
+font-family: monospace;
+/* position: fixed; */
+}
+
+div.wisata{
+
+}
+
+div.tempat .slg img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.tempat .slg{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.tempat .wp img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.tempat .wp{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.tempat .kelud img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.tempat .kelud{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.tempat .dolo img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.tempat .dolo{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+
+div.sate{
+  width: 85%
+  margin-left: 100px;
+}
+
+
+div.budaya .background{
+
+}
+
+div.budaya h1{
+  font-size: 50px;
+  padding-top: 900px;
+  padding-left: 450px;
+  font-family: monospace;
+}
+
+div.budaya .jaranan img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.budayaa .jaranan{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.budayaa .jaranan img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.budayaa .tarikethek{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.budayaa .tarikethek img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+div.budayaa .larung{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.budayaa .larung img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+
+div.budayaa .jemblung{
+  float: left;
+  width: 200px;
+  height: 350px;
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+div.budayaa .jemblung img{
+  float: left;
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+}
